@@ -1,0 +1,1 @@
+sed -i 's/disable_functions = pcntl_alarm/;disable_functions = pcntl_alarm/' /etc/php5/cli/php.ini

@@ -1,0 +1,2 @@
+sed -i 's/127.0.0.1/0.0.0.0/' /etc/mysql/my.cnf
+service mysql restart
