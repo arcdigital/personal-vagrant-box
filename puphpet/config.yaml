@@ -3,7 +3,7 @@ vagrantfile-local:
     vm:
         box: debian-wheezy72-x64-vbox43
         box_url: 'http://box.puphpet.com/debian-wheezy72-x64-vbox43.box'
-        hostname: anand-dev
+        hostname: dev-vm
         network:
             private_network: 192.168.56.130
             forwarded_port: {  }
